@@ -1,0 +1,18 @@
+VPC - security levels
+* two levels of security
+1. Subnet level - NACL
+* This is automated way of providing the security or controlling the incoming and out going traffic at the subnet level.
+2. Instance level - Security groups
+* Incoming and out going traffic controlled at the instance level.
+
+Demo create the VPC in automated way
+And create the instace in the subnet
+Exceute the following code in the instance
+root@ip-10-0-12-111:/home/ubuntu# history
+    1  apt update
+    2  clear
+    3  python3
+    4  python3 -3 http.server 8000
+    5  python3 -m http.server 8000
+    6  history
+root@ip-10-0-12-111:/home/ubuntu#
